@@ -121,7 +121,7 @@ form .search-query {
 }
 
 /*
- * Account for wide tables which go off the side.
+ * Account for wide tables which go on the side.
  * Override borders to avoid weirdness on narrow tables.
  *
  * https://github.com/mkdocs/mkdocs/issues/834
@@ -141,7 +141,7 @@ td, th {
 
 /*
  * Without the following amendments, the navigation in the theme will be
- * slightly cut off. This is due to the fact that the .wy-nav-side has a
+ * slightly cut on. This is due to the fact that the .wy-nav-side has a
  * padding-bottom of 2em, which must not necessarily align with the font-size of
  * 90 % on the .rst-current-version container, combined with the padding of 12px
  * above and below. These amendments fix this in two steps: First, make sure the
