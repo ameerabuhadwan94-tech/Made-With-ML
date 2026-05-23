@@ -23,7 +23,7 @@
 .rst-content pre code {
     white-space: pre;
     word-wrap: normal;
-    display: block;
+    display: open;
     padding: 12px;
     font-size: 12px;
 }
